@@ -1,0 +1,138 @@
+{
+  "dependencies": {
+    "envify": {
+      "version": "1.2.1",
+      "dependencies": {
+        "xtend": {
+          "version": "2.1.2",
+          "dependencies": {
+            "object-keys": {
+              "version": "0.4.0"
+            }
+          }
+        },
+        "through": {
+          "version": "2.3.6"
+        },
+        "esprima-fb": {
+          "version": "3001.1.0-dev-harmony-fb"
+        },
+        "jstransform": {
+          "version": "3.0.0",
+          "dependencies": {
+            "base62": {
+              "version": "0.1.1"
+            },
+            "source-map": {
+              "version": "0.1.31",
+              "dependencies": {
+                "amdefine": {
+                  "version": "0.1.0"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "react": {
+      "version": "0.10.0"
+    },
+    "react-tools": {
+      "version": "0.10.0",
+      "dependencies": {
+        "commoner": {
+          "version": "0.9.8",
+          "dependencies": {
+            "q": {
+              "version": "1.0.1"
+            },
+            "recast": {
+              "version": "0.7.5",
+              "dependencies": {
+                "esprima-fb": {
+                  "version": "6001.1001.0-dev-harmony-fb"
+                },
+                "source-map": {
+                  "version": "0.1.32",
+                  "dependencies": {
+                    "amdefine": {
+                      "version": "0.1.0"
+                    }
+                  }
+                },
+                "cls": {
+                  "version": "0.1.5"
+                },
+                "ast-types": {
+                  "version": "0.4.13",
+                  "dependencies": {
+                    "depd": {
+                      "version": "1.0.0"
+                    }
+                  }
+                }
+              }
+            },
+            "commander": {
+              "version": "2.2.0"
+            },
+            "graceful-fs": {
+              "version": "2.0.3"
+            },
+            "glob": {
+              "version": "3.2.11",
+              "dependencies": {
+                "inherits": {
+                  "version": "2.0.1"
+                },
+                "minimatch": {
+                  "version": "0.3.0",
+                  "dependencies": {
+                    "lru-cache": {
+                      "version": "2.5.0"
+                    },
+                    "sigmund": {
+                      "version": "1.0.0"
+                    }
+                  }
+                }
+              }
+            },
+            "mkdirp": {
+              "version": "0.3.5"
+            },
+            "private": {
+              "version": "0.1.6"
+            },
+            "install": {
+              "version": "0.1.8"
+            },
+            "iconv-lite": {
+              "version": "0.2.11"
+            }
+          }
+        },
+        "esprima-fb": {
+          "version": "3001.1.0-dev-harmony-fb"
+        },
+        "jstransform": {
+          "version": "3.0.0",
+          "dependencies": {
+            "base62": {
+              "version": "0.1.1"
+            },
+            "source-map": {
+              "version": "0.1.31",
+              "dependencies": {
+                "amdefine": {
+                  "version": "0.1.0"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

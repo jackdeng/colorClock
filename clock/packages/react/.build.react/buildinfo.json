@@ -1,0 +1,48 @@
+{
+  "builtBy": "meteor/14",
+  "buildDependencies": {
+    "os.json": {
+      "files": {
+        "/Users/jackdeng/Development/colorClock/clock/packages/react/package.js": "a4041d93737398b82d7745987e3306cebea0e85c",
+        "/Users/jackdeng/Development/colorClock/clock/packages/react/.npm/package/npm-shrinkwrap.json": "912cd3ff4890be69f7f9f46f4620c15ee6b0b142",
+        "/Users/jackdeng/Development/colorClock/clock/packages/react/src/require-react.js": "9021af4a3d6cddc878b3f95e1eb47d92bb7d4ae5",
+        "/Users/jackdeng/Development/colorClock/clock/packages/react/src/ReactMeteor.js": "54ec5f9c68903f073cee8c9e3bc25135efcb9769"
+      },
+      "directories": []
+    },
+    "web.browser.json": {
+      "files": {
+        "/Users/jackdeng/Development/colorClock/clock/packages/react/package.js": "a4041d93737398b82d7745987e3306cebea0e85c",
+        "/Users/jackdeng/Development/colorClock/clock/packages/react/.npm/package/npm-shrinkwrap.json": "912cd3ff4890be69f7f9f46f4620c15ee6b0b142",
+        "/Users/jackdeng/Development/colorClock/clock/packages/react/vendor/react-0.10.0.js": "0c455583990e480b7e0f32070cd7ce314b82b7fc",
+        "/Users/jackdeng/Development/colorClock/clock/packages/react/src/ReactMeteor.js": "54ec5f9c68903f073cee8c9e3bc25135efcb9769"
+      },
+      "directories": []
+    },
+    "web.cordova.json": {
+      "files": {
+        "/Users/jackdeng/Development/colorClock/clock/packages/react/package.js": "a4041d93737398b82d7745987e3306cebea0e85c",
+        "/Users/jackdeng/Development/colorClock/clock/packages/react/.npm/package/npm-shrinkwrap.json": "912cd3ff4890be69f7f9f46f4620c15ee6b0b142",
+        "/Users/jackdeng/Development/colorClock/clock/packages/react/vendor/react-0.10.0.js": "0c455583990e480b7e0f32070cd7ce314b82b7fc",
+        "/Users/jackdeng/Development/colorClock/clock/packages/react/src/ReactMeteor.js": "54ec5f9c68903f073cee8c9e3bc25135efcb9769"
+      },
+      "directories": []
+    }
+  },
+  "pluginDependencies": {
+    "files": {
+      "/Users/jackdeng/Development/colorClock/clock/packages/react/package.js": "a4041d93737398b82d7745987e3306cebea0e85c",
+      "/Users/jackdeng/Development/colorClock/clock/packages/react/.npm/plugin/compileJSX/npm-shrinkwrap.json": "b2731b688172f7588b63a6addeb2068532984e8a",
+      "/Users/jackdeng/Development/colorClock/clock/packages/react/plugin/compile-jsx.js": "1af7dc4ed56b6aa399f8260ceb62d41219ffb1f5"
+    },
+    "directories": []
+  },
+  "source": "/Users/jackdeng/Development/colorClock/clock/packages/react",
+  "buildTimeDirectDependencies": {
+    "meteor": "1.1.3"
+  },
+  "buildTimePluginDependencies": {
+    "compileJSX": {}
+  },
+  "cordovaDependencies": null
+}

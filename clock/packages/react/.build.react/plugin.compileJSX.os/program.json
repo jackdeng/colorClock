@@ -1,0 +1,12 @@
+{
+  "format": "javascript-image-pre1",
+  "arch": "os",
+  "load": [
+    {
+      "node_modules": "npm/compileJSX/node_modules",
+      "sourceMap": "packages/compileJSX_plugin.js.map",
+      "sourceMapRoot": "packages",
+      "path": "packages/compileJSX_plugin.js"
+    }
+  ]
+}

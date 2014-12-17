@@ -1,0 +1,29 @@
+{
+  "name": "react",
+  "summary": "React rendering for Meteor apps",
+  "version": "0.0.0+707790d4aac80a64467a776ce36bff43d4a2cda9",
+  "earliestCompatibleVersion": "0.0.0",
+  "isTest": false,
+  "plugins": [
+    {
+      "name": "compileJSX",
+      "arch": "os",
+      "path": "plugin.compileJSX.os/program.json"
+    }
+  ],
+  "unibuilds": [
+    {
+      "arch": "os",
+      "path": "os.json"
+    },
+    {
+      "arch": "web.browser",
+      "path": "web.browser.json"
+    },
+    {
+      "arch": "web.cordova",
+      "path": "web.cordova.json"
+    }
+  ],
+  "format": "unipackage-pre2"
+}

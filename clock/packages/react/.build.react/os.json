@@ -1,0 +1,29 @@
+{
+  "format": "unipackage-unibuild-pre1",
+  "packageVariables": [
+    {
+      "name": "React",
+      "export": true
+    },
+    {
+      "name": "ReactMeteor",
+      "export": true
+    }
+  ],
+  "uses": [
+    {
+      "package": "meteor"
+    }
+  ],
+  "node_modules": "npm/node_modules",
+  "resources": [
+    {
+      "type": "prelink",
+      "file": "os/packages/react.js",
+      "length": 4577,
+      "offset": 0,
+      "servePath": "/packages/react.js",
+      "sourceMap": "os/packages/react.js.map"
+    }
+  ]
+}
