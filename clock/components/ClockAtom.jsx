@@ -79,7 +79,7 @@ ClockAtom = React.createClass({
   render: function() {
     return (
     	<div className="clock">
-        <div style={this.getColorStyles()} className="banner">Amy</div>
+        <div style={this.getColorStyles()} className="banner">color</div>
         <div className="face">
           <div className="content">
         		<div className="time">{this.getTime()}</div>
