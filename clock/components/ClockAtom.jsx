@@ -12,7 +12,11 @@ var makeHex = function(num) {
 	}
 }
 
-var makeRGBA = function(hour, min, sec, fade) {
+var makeRGBA = function(now, fade) {
+  var sec = now.second();
+  var min = now.minute();
+  var hour = now.hour();
+
   var r = Math.floor(hour * 10.625);
   var g = Math.floor(min * 4.25);
   var b = Math.floor(sec * 4.25);
@@ -27,6 +31,7 @@ var makeRGBA = function(hour, min, sec, fade) {
   var rgba = [];
   rgba.push(r, g, b, a);
   rgba = rgba.join(",");
+  rgba = "rgba(" + rgba + ")";
 
   console.log("rbga: " + rgba); 
   return rgba;
@@ -47,29 +52,20 @@ ClockAtom = React.createClass({
   },
   getHex: function() {
     var now = this.props.time;
-
     var sec = now.second();
     var min = now.minute();
     var hour = now.hour();
-
+    
     var hexColor = "#" + makeHex(10*hour) + makeHex(4*min) + makeHex(4*sec);
-    var rgba = makeRGBA(hour, min, sec, false); 
-    rgba = "rgba(" + rgba + ")";
+    var rgba = makeRGBA(now, false); 
 
+    // side effect of changing background
     $("body").css("background", rgba);
-    console.log("color: " + hexColor);
 
     return hexColor;
   },
   getColorStyles: function() {
-    var now = this.props.time;
-    var sec = now.second();
-    var min = now.minute();
-    var hour = now.hour();
-
-    var rgba_fade = makeRGBA(hour, min, sec, true);
-    rgba_fade = "rgba(" + rgba_fade + ")";
-
+    var rgba_fade = makeRGBA(this.props.time, true);
     var styles = {
       color: rgba_fade
     };
