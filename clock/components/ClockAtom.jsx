@@ -55,12 +55,15 @@ ClockAtom = React.createClass({
   render: function() {
     return (
     	<div className="clock">
+        <div className="banner">Amy</div>
         <div className="face">
           <div className="content">
         		<div className="time">{this.getTime()}</div>
             <div className="hex">{this.getHex()}</div>
           </div>
+          <div className="apostrophe">,</div>
         </div>
+        <div className="banner">clock</div>
     	</div>
     );
   }

@@ -18,10 +18,11 @@ body {
 
 .clock .face {
 	position: relative;
-	width: 175px;
-	height: 175px;
+	width: 160px;
+	height: 160px;
 	border-radius: 50%;
 	border: 3px solid white;
+	margin: 20px;
 }
 
 .clock .content {
@@ -29,4 +30,17 @@ body {
 	top: 50%;
 	left: 50%;
 	transform: translate(-50%, -50%);
+}
+
+.banner {
+	text-align: center;
+	font-size: 70px;
+}
+
+.apostrophe {
+	position: absolute;
+	font-family: arial;
+	font-size: 55px;
+	top: -45px;
+	right: -20px;
 }
