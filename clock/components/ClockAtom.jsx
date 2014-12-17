@@ -47,7 +47,7 @@ ClockAtom = React.createClass({
     var rgba = makeRGBA(hour, min, sec); 
     rgba = "rgba(" + rgba + ")";
 
-    var body = $("body").css("background", rgba);
+    $("body").css("background", rgba);
     console.log("color: " + hexColor);
 
     return hexColor;
