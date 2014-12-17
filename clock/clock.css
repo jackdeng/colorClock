@@ -1,9 +1,8 @@
 /* CSS declarations go here */
 body {
-	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
-	font-size: 28px;
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light";
+	font-size: 29px;
 	color: white;
-
 }
 
 .clock {
@@ -15,4 +14,19 @@ body {
 
 .time {
 	margin-bottom: 5px;
+}
+
+.clock .face {
+	position: relative;
+	width: 175px;
+	height: 175px;
+	border-radius: 50%;
+	border: 1px solid white;
+}
+
+.clock .content {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
 }
