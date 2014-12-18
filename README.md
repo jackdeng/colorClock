@@ -11,4 +11,4 @@ A #hex color clock.
 ### Sample
 http://colorclock.meteor.com/
 
-![alt tag](https://github.com/jackdeng/colorClock/assets/clock.png)
+![alt tag](https://github.com/jackdeng/colorClock/blob/master/assets/clock.png)
