@@ -7,7 +7,7 @@ A #hex color clock.
 3. point browser to: http://localhost:3000/
 
 ### Deployment
-meteor deploy <appname>.meteor.com
+meteor deploy {appname}.meteor.com
 
 ### Sample
 http://colorclock.meteor.com/
